@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    bottom: 15%
+    left: 0
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 15%
+    right: 20%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    right: 10%
+    bottom: 40%
 
 
 @keyframes float1
@@ -17,3 +22,48 @@
 
   100%
     transform: translateY(0px)
+
+//estilos del CF//
+
+//banners
+.banner-principal .tarjeta
+  @media screen and (max-width: 768px)
+    background-position: inherit
+  @media screen and (max-width: 576px)
+    background-position: center
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
+
+.banner-interno
+  height: 160px
+  .banner-interno__fondo
+    background-image: url(../assets/curso/fondo_tema.png) !important
+
+//color fondos
+.fondo-color-sistema-i
+  background-color: $color-sistema-i !important
+.fondo-color-secundario
+  background-color: $color-secundario !important
+
+//bordes
+.borde-8
+  border-radius: 8px !important
+.borde-9
+  border-radius: 9px !important
+.borde-18
+  border-radius: 18px !important
+.borde-20
+  border-radius: 20px !important
+.borde-16
+  border-radius: 16px !important
+.borde-15
+  border-radius: 15px !important
+.borde-13
+  border-radius: 13px !important
+.borde-12
+  border-radius: 12px !important
+.borde-24
+  border-radius: 24px !important
+.no-border-radius
+  border-radius: 0 !important
+
+//estilos del CF//
