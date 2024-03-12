@@ -24,6 +24,67 @@
     transform: translateY(0px)
 
 //estilos del CF//
+.seccion-tarjetas
+  .tarjeta--boton
+    background-color: #A3BFE4
+  .tarjeta--boton:hover
+    background-color: #E3ECF7 !important
+
+//Slyder A
+.slyder-a-personalizado-1
+  overflow: hidden
+  position: relative
+  &__fondo
+    background-color: #13215C
+    position: absolute !important
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    .fig-flotante
+      position: absolute
+  .slyder-a
+    position: relative
+    z-index: 2
+    .slyder-a__btn--sigt,.slyder-a__btn--atrs
+      background-color: #FFCE00
+  p,li
+    color: white !important
+  .titulo-item-slyder
+    color: $color-acento-botones !important
+
+.slyder-e-personalizado-1
+  overflow: hidden
+  position: relative
+  &__fondo
+    background-color: $color-secundario
+    position: absolute !important
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    border-radius: 12px
+    .fig-flotante
+      position: absolute
+  .slyder-e
+    position: relative
+    z-index: 2
+    .slyder__pagination
+      color: white !important
+    .slyder__btn:last-child
+      background-color: $color-acento-botones !important
+    .slyder__btn:first-child
+      background-color: #FDFDFD !important
+  p,li
+    color: white !important
+  .titulo-item-slyder
+    color: $color-acento-botones !important
+    font-weight: bold
+
+//pasos
+.pasos-a-personalizado-1
+  .pasos-a__circle div
+    color: white !important
 
 //banners
 .banner-principal .tarjeta
