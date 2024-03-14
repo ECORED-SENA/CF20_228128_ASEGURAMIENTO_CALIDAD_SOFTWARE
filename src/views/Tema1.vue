@@ -297,7 +297,7 @@
         p.mb-0 Una buena práctica consiste en asegurar que los servidores destinados a los despliegues de mantenimiento, desarrollo y producción mantengan configuraciones casi idénticas. La razón por la cual se dice "casi idénticas" es que existen ciertas configuraciones que pueden variar ligeramente debido al acceso a las aplicaciones, pero, en cuanto a características generales, deberían ser iguales. Esto permite que, al realizar pruebas, las aplicaciones se comporten de manera similar en diferentes entornos.
 
     
-    .fondo-personalizado-1
+    .fondo-personalizado-1.pos-2
       .fondo-personalizado-1__contenido
         .row.mb-5.seccion-tarjetas-2.justify-content-center(data-aos="flip-up")
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -336,117 +336,126 @@
         p.mb-4 A continuación, se listan las principales entidades: 
 
 
-    .row.mb-5.seccion-tarjetas-3
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
-        .tarjeta--boton.p-4.h-100
-          .seccion-tarjetas-3__cont-figura-dinamica.mb-4
-            figure
-              img.mx-auto(src='@/assets/curso/temas/18.png')
+        .row.mb-5.seccion-tarjetas-3
+          .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+            .tarjeta--boton.p-4.h-100
+              .seccion-tarjetas-3__cont-figura-dinamica.mb-4
+                figure
+                  img.mx-auto(src='@/assets/curso/temas/18.png')
 
-          h4.text-center ISO
-          p #[b Organización Internacional de Normalización.] La principal actividad es la elaboración de normas técnicas internacionales.
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
-        .tarjeta--boton.p-4.h-100
-          .seccion-tarjetas-3__cont-figura-dinamica.mb-4
-            figure
-              img.mx-auto(src='@/assets/curso/temas/19.png')
+              h4.text-center ISO
+              p #[b Organización Internacional de Normalización.] La principal actividad es la elaboración de normas técnicas internacionales.
+          .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+            .tarjeta--boton.p-4.h-100
+              .seccion-tarjetas-3__cont-figura-dinamica.mb-4
+                figure
+                  img.mx-auto(src='@/assets/curso/temas/19.png')
 
-          h4.text-center ISACA SACA
-          p Es una organización global sin ánimo de lucro dedicada a fomentar las mejores prácticas y conocimientos en la industria de la tecnología de la información, con reconocimiento y aplicación a nivel mundial.
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
-        .tarjeta--boton.p-4.h-100
-          .seccion-tarjetas-3__cont-figura-dinamica.mb-4
-            figure
-              img.mx-auto(src='@/assets/curso/temas/20.png')
+              h4.text-center ISACA SACA
+              p Es una organización global sin ánimo de lucro dedicada a fomentar las mejores prácticas y conocimientos en la industria de la tecnología de la información, con reconocimiento y aplicación a nivel mundial.
+          .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+            .tarjeta--boton.p-4.h-100
+              .seccion-tarjetas-3__cont-figura-dinamica.mb-4
+                figure
+                  img.mx-auto(src='@/assets/curso/temas/20.png')
 
-          h4.text-center CCITT
-          p Es el Comité Consultivo Internacional Telegráfico y Telefónico, que se convirtió en ITU-T en 1993, y se dedica a desarrollar recomendaciones para estándares internacionales en comunicaciones telefónicas y telegráficas.
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
-        .tarjeta--boton.p-4.h-100
-          .seccion-tarjetas-3__cont-figura-dinamica.mb-4
-            figure
-              img.mx-auto(src='@/assets/curso/temas/21.png')
+              h4.text-center CCITT
+              p Es el Comité Consultivo Internacional Telegráfico y Telefónico, que se convirtió en ITU-T en 1993, y se dedica a desarrollar recomendaciones para estándares internacionales en comunicaciones telefónicas y telegráficas.
+          .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+            .tarjeta--boton.p-4.h-100
+              .seccion-tarjetas-3__cont-figura-dinamica.mb-4
+                figure
+                  img.mx-auto(src='@/assets/curso/temas/21.png')
 
-          h4.text-center NIST
-          p Es una agencia del Departamento de Comercio de EE. UU. que ofrece un Marco de Ciberseguridad para ayudar a las empresas a comprender, gestionar y mitigar sus riesgos cibernéticos y proteger sus redes y datos.
+              h4.text-center NIST
+              p Es una agencia del Departamento de Comercio de EE. UU. que ofrece un Marco de Ciberseguridad para ayudar a las empresas a comprender, gestionar y mitigar sus riesgos cibernéticos y proteger sus redes y datos.
 
+    p.mb-5 En la siguiente tabla, se proporciona una perspectiva global de algunas normas que abordan la definición de ciberseguridad.
 
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Tabla 1.] #[em Normas relacionadas con la ciberseguridad]
 
-    .tabla-a.color-acento-contenido.mb-5.bg-white.mb-5(data-aos="zoom-in-up")
-      table
-        thead
-          tr
-            th N° 
-            th Origen
-            th Documento
-            th Término
-            th Organización
-            th CDI
-            th Intensión
-            th Motivación
-            th Amenazas
-        tbody
-          tr
-            td 01
-            td ISO/IEC JTC1/SC27
-            td 27032
-            td Ciberseguridad
-            td ISO
-            td Sí
-            td Solo los activos destinados a internet
-            td No diferenciación Entre actividades maliciosas o no
-            td Sólo los activos virtuales conectados a internet, sin activos físicos
-          tr
-            td 02
-            td ISO/IEC JTC1/SC27
-            td 27000
-            td Seguridad de la información
-            td ISO
-            td Sí
-            td Cualquier Origen de Riesgo en el Espacio cibernético
-            td No diferenciación entre malicioso o no intencional
-            td Cualquier Activo
-          tr
-            td 03
-            td UIT-T
-            td X.1205
-            td Ciberseguridad
-            td UIT
-            td NO
-            td Cualquier Origen de Riesgo en el Espacio cibernético
-            td No diferenciación entre actividades maliciosas o no
-            td Cualquier Activo
-          tr
-            td 04
-            td NIST
-            td SP 800-39
-            td Ciberseguridad
-            td NIST
-            td Sí
-            td Riesgo Originado exclusivamente en el espacio cibernético
-            td Sólo cubre orígenes maliciosos (ataques cibernéticos)
-            td Sólo los activos virtuales conectados a internet, sin activos físicos
-          tr
-            td 05
-            td ISACA
-            td Cybersecurity fundamentals
-            td Ciberseguridad
-            td ISACA
-            td Sí
-            td Certificación  CSX
-            td Origen Malicioso
-            td Activos en el Ciberespacio
+    .fondo-personalizado-1
+      .fondo-personalizado-1__contenido
+        .tabla-a.color-acento-contenido.mb-5.bg-white.mb-5(data-aos="zoom-in-up")
+          table
+            caption.fw-normal #[em Nota]. Gestión de la ciberseguridad según el ISO/IEC 27032:2012. ,2021)
+            thead
+              tr
+                th N° 
+                th Origen
+                th Documento
+                th Término
+                th Organización
+                th CDI
+                th Intensión
+                th Motivación
+                th Amenazas
+            tbody
+              tr
+                td #[b 01]
+                td ISO/IEC JTC1/SC27
+                td 27032
+                td Ciberseguridad
+                td ISO
+                td Sí
+                td Solo los activos destinados a internet
+                td No diferenciación Entre actividades maliciosas o no
+                td Sólo los activos virtuales conectados a internet, sin activos físicos
+              tr
+                td #[b 02]
+                td ISO/IEC JTC1/SC27
+                td 27000
+                td Seguridad de la información
+                td ISO
+                td Sí
+                td Cualquier Origen de Riesgo en el Espacio cibernético
+                td No diferenciación entre malicioso o no intencional
+                td Cualquier Activo
+              tr
+                td #[b 03]
+                td UIT-T
+                td X.1205
+                td Ciberseguridad
+                td UIT
+                td NO
+                td Cualquier Origen de Riesgo en el Espacio cibernético
+                td No diferenciación entre actividades maliciosas o no
+                td Cualquier Activo
+              tr
+                td #[b 04]
+                td NIST
+                td SP 800-39
+                td Ciberseguridad
+                td NIST
+                td Sí
+                td Riesgo Originado exclusivamente en el espacio cibernético
+                td Sólo cubre orígenes maliciosos (ataques cibernéticos)
+                td Sólo los activos virtuales conectados a internet, sin activos físicos
+              tr
+                td #[b 05]
+                td ISACA
+                td Cybersecurity fundamentals
+                td Ciberseguridad
+                td ISACA
+                td Sí
+                td Certificación  CSX
+                td Origen Malicioso
+                td Activos en el Ciberespacio
 
-    .row.justify-content-center.mb-5
-      .col-lg-10
+        p(style="color:red;") Falta componente movil y destokp acaaa!!!
 
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 3.] #[em Estructura de la norma ISO/IEC 27032:2020]
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            .titulo-sexto.color-acento-contenido
+              p.mb-0 #[b Figura 3.] #[em Estructura de la norma ISO/IEC 27032:2020]
 
-        figure
-          img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 1030px;",alt="La figura Estructura de la norma ISO/IEC 27032:2020 descompone la norma en secciones que incluyen su alcance, aplicabilidad, términos clave, y referencias normativas. Se detalla en aspectos como generalidades, roles de los interesados, amenazas de seguridad, y controles en el ciberespacio, culminando en un marco para el intercambio y coordinación de información de seguridad cibernética.")
+            figure
+              img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 1030px;",alt="La figura Estructura de la norma ISO/IEC 27032:2020 descompone la norma en secciones que incluyen su alcance, aplicabilidad, términos clave, y referencias normativas. Se detalla en aspectos como generalidades, roles de los interesados, amenazas de seguridad, y controles en el ciberespacio, culminando en un marco para el intercambio y coordinación de información de seguridad cibernética.")
+
+        p.mb-4 La norma se enfoca en la seguridad del ciberespacio o cuestiones de ciberseguridad, con un énfasis particular en establecer conexiones entre diferentes brechas de la web. Este documento ofrece una guía técnica para abordar los riesgos comunes de ciberseguridad.
+
+        p.mb-4 Dado el aumento en la frecuencia y la sofisticación de los ciberataques, se reconoce claramente la necesidad de proteger los recursos y activos. Surge entonces la importante pregunta:
           
     
     .titulo-sexto.color-acento-contenido
