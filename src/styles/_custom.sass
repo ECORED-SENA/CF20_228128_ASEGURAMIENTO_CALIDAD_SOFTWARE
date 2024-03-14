@@ -23,12 +23,198 @@
   100%
     transform: translateY(0px)
 
+.cont-titulo-decorativo
+  position: relative
+  max-width: max-content
+  figure
+    width: 40px
+    position: relative
+  h3
+    position: relative
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    bottom: 0
+    right: 0
+    top: 16px
+    background-color: #8DEECC
+    border-radius: 6px
+    z-index: 0
+
+.slyder-f
+  .slyder-f__btn
+    color: $color-acento-botones
+
 //estilos del CF//
 .seccion-tarjetas
   .tarjeta--boton
     background-color: #A3BFE4
   .tarjeta--boton:hover
     background-color: #E3ECF7 !important
+    .seccion-tarjetas__cont-figura-dinamica
+      background-image: url(../assets/curso/temas/fondo-nube-azul.png)
+  &__cont-figura-dinamica
+    margin: 0 auto
+    width: 100%
+    max-width: 124px
+    height: 124px
+    display: flex
+    justify-content: center
+    align-items: center
+    background-image: url(../assets/curso/temas/fondo-nube-blanca.png)
+    background-position: left top
+    background-repeat: no-repeat
+    background-size: contain
+    transition: background-image 0.3s ease-in-out
+    img
+      width: 70%
+  &__cont-figura-1
+    width: 152px
+    height: 152px
+    border-radius: 50%
+    background-color: white
+    display: flex
+    justify-content: center
+    align-items: center
+    figure
+      width: 85%
+      height: 85%
+
+.seccion-tarjetas-2
+  .tarjeta--boton
+    background-color: $color-sistema-i
+  .tarjeta--boton.color-1:hover
+    background-color: #0057AB !important
+    p
+      color: white !important
+  .tarjeta--boton.color-2:hover
+    background-color: #E45F00 !important
+    p
+      color: white !important
+  .tarjeta--boton.color-3:hover
+    background-color: #645AC2 !important
+    p
+      color: white !important
+  .tarjeta--boton.color-4:hover
+    background-color: #FFEDA7 !important
+  &__cont-figura-1
+    width: 152px
+    height: 152px
+    border-radius: 50%
+    background-color: white
+    display: flex
+    justify-content: center
+    align-items: center
+    figure
+      width: 85%
+      height: 85%
+
+.seccion-tarjetas-3
+  .tarjeta--boton
+    background-color: #A3BFE4
+  .tarjeta--boton:hover
+    background-color: $color-secundario !important
+    p,h4
+      color: white
+    .seccion-tarjetas-3__cont-figura-dinamica
+      background-image: url(../assets/curso/temas/fondo-nube-naranja.png)
+  &__cont-figura-dinamica
+    margin: 0 auto
+    width: 100%
+    max-width: 124px
+    height: 124px
+    display: flex
+    justify-content: center
+    align-items: center
+    background-image: url(../assets/curso/temas/fondo-nube-azul-2.png)
+    background-position: left top
+    background-repeat: no-repeat
+    background-size: contain
+    transition: background-image 0.3s ease-in-out
+    img
+      width: 80%
+  &__cont-figura-1
+    width: 152px
+    height: 152px
+    border-radius: 50%
+    background-color: white
+    display: flex
+    justify-content: center
+    align-items: center
+    figure
+      width: 85%
+      height: 85%
+
+.figura-paso-1-contenedor
+  &.color-1
+    .figura-paso-1
+      border-color: #FF5151 !important
+    .figura-paso-1-contenido
+      .figura-paso-1-contenido__numero
+        color: #FF5151 !important
+  &.color-2
+    .figura-paso-1
+      border-color: #EB8C48 !important
+    .figura-paso-1-contenido
+      .figura-paso-1-contenido__numero
+        color: #EB8C48 !important
+  &.color-3
+    .figura-paso-1
+      border-color: #592FE6 !important
+    .figura-paso-1-contenido
+      .figura-paso-1-contenido__numero
+        color: #592FE6 !important
+  &.color-4
+    .figura-paso-1
+      border-color: #88E0EF !important
+    .figura-paso-1-contenido
+      .figura-paso-1-contenido__numero
+        color: #88E0EF !important
+  &.color-5
+    .figura-paso-1
+      border-color: #827AD2 !important
+    .figura-paso-1-contenido
+      .figura-paso-1-contenido__numero
+        color: #827AD2 !important
+  position: relative
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 100%
+  max-width: 330px
+  .figura-paso-1
+    width: 80%
+    aspect-ratio: 1 / 1
+    border-radius: 50%
+    border: 3px solid black
+    margin-left: auto
+    clip-path: polygon(0 33%, 0 0, 100% 0, 100% 100%, 0 100%, 0 76%, 50% 50%)
+  .figura-paso-1-contenido
+    position: absolute
+    display: flex
+    align-items: center
+    .figura-paso-1-contenido__numero
+      font-weight: 400
+      line-height: normal
+      font-size: 5.5em
+      display: inline-block
+      padding-right: 0.7rem
+      padding-left: 0.9rem
+      @media screen and (max-width: 360px)
+        font-size: 4em
+    .figura-paso-1-contenido__texto
+      margin-bottom: 0
+      padding-right: 2rem
+    
+
+
+//bloques de texto
+.bloque-texto-b.btxt-personalizado-1
+  &:before
+    background-color: $color-sistema-k !important
+    top: 70%
+    left: 45%
 
 //Slyder A
 .slyder-a-personalizado-1
@@ -48,6 +234,10 @@
     z-index: 2
     .slyder-a__btn--sigt,.slyder-a__btn--atrs
       background-color: #FFCE00
+    .slyder-a__bullets__item--active
+      opacity: 1 !important
+      background-color: white
+      border: none !important
   p,li
     color: white !important
   .titulo-item-slyder
@@ -102,29 +292,100 @@
 //color fondos
 .fondo-color-sistema-i
   background-color: $color-sistema-i !important
+.fondo-color-sistema-j
+  background-color: $color-sistema-j !important
 .fondo-color-secundario
   background-color: $color-secundario !important
+.fondo-color-sistema-k
+  background-color: $color-sistema-k !important
+.fondo-color-sistema-l
+  background-color: $color-sistema-l !important
 
 //bordes
 .borde-8
   border-radius: 8px !important
 .borde-9
   border-radius: 9px !important
+.borde-10
+  border-radius: 10px !important
 .borde-18
   border-radius: 18px !important
+.borde-19
+  border-radius: 19px !important
 .borde-20
   border-radius: 20px !important
 .borde-16
   border-radius: 16px !important
+.borde-14
+  border-radius: 14px !important
 .borde-15
   border-radius: 15px !important
 .borde-13
   border-radius: 13px !important
+.borde-11
+  border-radius: 11px !important
 .borde-12
   border-radius: 12px !important
 .borde-24
   border-radius: 24px !important
 .no-border-radius
   border-radius: 0 !important
+
+//fondos personalizados
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background: linear-gradient(180deg, rgba(249,252,255,0.23) 0%, rgba(209,227,245,0.99) 50%, rgba(224,239,255,0) 100%)
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 16%
+      bottom: 16%
+
+.fondo-personalizado-2
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/35.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 16%
+      bottom: 16%
+  &.pos-2
+    &:before
+      top: 45px
+      bottom: 70px
+
+.fondo-personalizado-3
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    right: 0
+    top: 15%
+    bottom: 20%
+    z-index: 0
+    background-color: red
+  &__contenido
+    position: relative
 
 //estilos del CF//
