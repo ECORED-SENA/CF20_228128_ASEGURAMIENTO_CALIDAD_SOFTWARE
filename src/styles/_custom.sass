@@ -46,7 +46,38 @@
   .slyder-f__btn
     color: $color-acento-botones
 
+.acordion__accion__btn--a
+  background-color: $color-acento-botones !important
+
+.tarjeta.acordion__activo
+  background-color: $color-sistema-l !important
+
 //estilos del CF//
+.contenedor-cuerpo-acordion-a
+  padding-left: 55px !important
+  @media screen and (max-width: $bp-max-md)
+    padding-left: 0 !important
+
+.contenedor-1
+  margin: 6rem 0 11rem 0
+  @media screen and (max-width: $bp-max-xl)
+    margin: 5rem 0 10rem 0
+  @media screen and (max-width: $bp-max-lg)
+    margin: 5rem 0 5rem 0
+  @media screen and (max-width: $bp-max-md)
+    margin: 0
+  .contenedor-figura-posicionada-1
+    position: relative
+    .figura-posicionada-1
+      position: absolute
+      top: -50px
+      right: 0
+      @media screen and (max-width: $bp-max-lg)
+        top: -30px
+      @media screen and (max-width: $bp-max-md)
+        position: static
+    
+
 .seccion-tarjetas
   .tarjeta--boton
     background-color: #A3BFE4
@@ -208,6 +239,17 @@
       padding-right: 2rem
     
 
+//listas
+.lista-tipo-1
+  li
+    display: flex !important
+    align-items: center
+  &.size-igual
+    span.fas
+      width: 24px
+      height: 24px
+
+
 
 //bloques de texto
 .bloque-texto-b.btxt-personalizado-1
@@ -300,6 +342,13 @@
   background-color: $color-sistema-k !important
 .fondo-color-sistema-l
   background-color: $color-sistema-l !important
+.fondo-color-sistema-m
+  background-color: $color-sistema-m !important
+  &.bmd-none
+    @media screen and (min-width: $bp-min-md)
+      background-color: transparent !important
+.fondo-color-primario
+  background-color: $color-primario !important
 
 //bordes
 .borde-8
@@ -328,6 +377,8 @@
   border-radius: 12px !important
 .borde-24
   border-radius: 24px !important
+.borde-18
+  border-radius: 18px !important
 .no-border-radius
   border-radius: 0 !important
 
@@ -351,7 +402,6 @@
       bottom: 16%
   &.pos-2
     &:before
-      top: 160px
       bottom: 160px
 
 .fondo-personalizado-2
@@ -391,5 +441,23 @@
     background-color: red
   &__contenido
     position: relative
+
+.fondo-personalizado-4
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background: linear-gradient(180deg, rgba(249,252,255,0.23) 0%, rgba(208,231,254,0.99) 57%, rgba(224,239,255,0) 100%)
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 16%
+      bottom: 10%
 
 //estilos del CF//

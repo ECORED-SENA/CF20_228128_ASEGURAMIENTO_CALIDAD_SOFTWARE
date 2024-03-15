@@ -80,21 +80,21 @@
 
     .row.mb-5.seccion-tarjetas-2(data-aos="flip-up")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-1.p-4.px-3.h-100
+        .tarjeta--boton.color-4.p-4.px-3.h-100
           .seccion-tarjetas__cont-figura-1.mb-4.mx-auto
             figure
               img(src='@/assets/curso/temas/31.png')
 
           p Evaluar en el diseño los posibles riesgos que tiene una aplicación web.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-2.p-4.px-3.h-100
+        .tarjeta--boton.color-4.p-4.px-3.h-100
           .seccion-tarjetas__cont-figura-1.mb-4.mx-auto
             figure
               img(src='@/assets/curso/temas/32.png')
 
           p Contemplar los riesgos de una aplicación que se ejecutará internamente en una empresa.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-3.p-4.px-3.h-100
+        .tarjeta--boton.color-4.p-4.px-3.h-100
           .seccion-tarjetas__cont-figura-1.mb-4.mx-auto
             figure
               img(src='@/assets/curso/temas/33.png')
@@ -112,112 +112,125 @@
 
     p.mb-5 Para elaborar un modelo de amenazas, es importante tener en cuenta los siguientes pasos:
 
-    .fondo-personalizado-2
-      .fondo-personalizado-2__contenido
+    SlyderF.mb-4(columnas="col-lg-6 col-xl-4")
+      .tarjeta.fondo-color-sistema-k.p-4
+        .row.justify-content-center.mb-4
+          .col-8
+            img.mx-auto(src='@/assets/curso/temas/59.png',style="max-width: 124px;")
+        p Recopilar información esencial sobre las posibles amenazas para construir el modelo.
+      .tarjeta.fondo-color-sistema-k.p-4
+        .row.justify-content-center.mb-4
+          .col-8
+            img.mx-auto(src='@/assets/curso/temas/60.png',style="max-width: 124px;")
+        p Analizar y elaborar el modelo de amenazas utilizando la información recopilada.
+      .tarjeta.fondo-color-sistema-k.p-4
+        .row.justify-content-center.mb-4
+          .col-8
+            img.mx-auto(src='@/assets/curso/temas/61.png',style="max-width: 124px;")
+        p Identificar técnicas y tecnologías para mitigar las amenazas.
+      .tarjeta.fondo-color-sistema-k.p-4
+        .row.justify-content-center.mb-4
+          .col-8
+            img.mx-auto(src='@/assets/curso/temas/62.png',style="max-width: 124px;")
+        p Documentar el modelo de amenazas con claridad, incluyendo la identificación de riesgos, supuestos, y limitaciones.
+      .tarjeta.fondo-color-sistema-k.p-4
+        .row.justify-content-center.mb-4
+          .col-8
+            img.mx-auto(src='@/assets/curso/temas/63.png',style="max-width: 124px;")
+        p Implementar y probar las mitigaciones, y sincronizar el modelo con el diseño, considerando los controles de cambios.
 
-        .d-flex.flex-wrap.justify-content-center.mb-5
-          .figura-paso-1-contenedor.mb-4.color-1
-            .figura-paso-1
-            .figura-paso-1-contenido
-              span.figura-paso-1-contenido__numero 01
-              p.figura-paso-1-contenido__texto Recopilar información esencial sobre las posibles amenazas para construir el modelo.
-          .figura-paso-1-contenedor.mb-4.color-2
-            .figura-paso-1
-            .figura-paso-1-contenido
-              span.figura-paso-1-contenido__numero 02
-              p.figura-paso-1-contenido__texto Analizar y elaborar el modelo de amenazas utilizando la información recopilada.
-          .figura-paso-1-contenedor.mb-4.color-3
-            .figura-paso-1
-            .figura-paso-1-contenido
-              span.figura-paso-1-contenido__numero 03
-              p.figura-paso-1-contenido__texto Identificar técnicas y tecnologías para mitigar las amenazas.
-          .figura-paso-1-contenedor.mb-4.color-4
-            .figura-paso-1
-            .figura-paso-1-contenido
-              span.figura-paso-1-contenido__numero 04
-              p.figura-paso-1-contenido__texto Documentar el modelo de amenazas con claridad, incluyendo la identificación de riesgos, supuestos, y limitaciones.
-          .figura-paso-1-contenedor.mb-4.color-5
-            .figura-paso-1
-            .figura-paso-1-contenido
-              span.figura-paso-1-contenido__numero 05
-              p.figura-paso-1-contenido__texto Implementar y probar las mitigaciones, y sincronizar el modelo con el diseño, considerando los controles de cambios.
-
-        .row.justify-content-center.mb-5
-          .col-lg-2.col-4.pe-0
-            .fondo-color-secundario.p-md-4.h-100.d-flex.justify-content-center.flex-column(style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;")
-              figure
-                img.mx-auto(src="@/assets/curso/temas/2.svg",style="max-width: 116px;")
-          .col-lg-6.col-8.ps-0
-            .fondo-color-sistema-i.p-3.h-100.d-flex.align-items-center(style="border-top-right-radius: 20px;border-bottom-right-radius: 20px;")
-              .bg-white.p-2.p-md-3(style="border-top-right-radius: 18px;border-bottom-right-radius: 18px;")
-                p.mb-0(style="color:#0F6BD2;") En resumen, en el proceso de diseño, un modelo de seguridad es capaz de identificar las siguientes vulnerabilidades y posibles amenazas, como se muestra a continuación:
+    .row.justify-content-center.mb-5
+      .col-lg-2.col-4.pe-0
+        .fondo-color-secundario.p-md-4.h-100.d-flex.justify-content-center.flex-column(style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;")
+          figure
+            img.mx-auto(src="@/assets/curso/temas/2.svg",style="max-width: 116px;")
+      .col-lg-6.col-8.ps-0
+        .fondo-color-sistema-i.p-3.h-100.d-flex.align-items-center(style="border-top-right-radius: 20px;border-bottom-right-radius: 20px;")
+          .bg-white.p-2.p-md-3.h-100.d-flex.align-items-center(style="border-top-right-radius: 18px;border-bottom-right-radius: 18px;")
+            p.mb-0(style="color:#0F6BD2;") En resumen, en el proceso de diseño, un modelo de seguridad es capaz de identificar las siguientes vulnerabilidades y posibles amenazas, como se muestra a continuación:
         
-        figure.mb-5(data-aos="zoom-in-up")
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/mHAdqq_7FXg?si=sliTNfMnau_O4N8Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Análisis, valoración de riesgos y controles de ciberseguridad: Vulnerabilidades y amenazas
+    figure.mb-5(data-aos="zoom-in-up")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/mHAdqq_7FXg?si=sliTNfMnau_O4N8Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Análisis, valoración de riesgos y controles de ciberseguridad: Vulnerabilidades y amenazas
 
     Separador
 
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Seguridad en el proceso de codificación
 
-    p(style="color: red;") falta parrfo imgen parro aqui!!!!!!!!!!!!!
+    p.mb-4 En el proceso de desarrollo de #[em software], es crucial considerar cómo los desarrolladores modifican y construyen los distintos componentes de las aplicaciones. Por lo tanto, resulta fundamental estandarizar las prácticas de codificación, documentación e identificación de ciertos requisitos, que incluyen:
+
+    .row.justify-content-center.contenedor-1
+      .col-lg-8.px-0
+        .fondo-color-sistema-i.p-4.px-lg-5.pe-lg-0.borde-24
+          .row
+            .col-lg-7
+            
+              ul.lista-ul.lista-tipo-1.size-igual.fa-ul.mb-0.ms-0
+                li
+                  span.d-inline-flex.align-items-center.justify-content-center.p-1.text-white.fondo-color-primario.fas.fa-sun
+                  span Aseguramiento de los ambientes de desarrollo.
+                li
+                  span.d-inline-flex.align-items-center.justify-content-center.p-1.text-white.fondo-color-primario.fas.fa-file-import
+                  span Documentación técnica.
+                li
+                  span.d-inline-flex.align-items-center.justify-content-center.p-1.text-white.fondo-color-primario.fas.fa-laptop-code
+                  span Codificación segura.
+                li
+                  span.d-inline-flex.align-items-center.justify-content-center.p-1.text-white.fondo-color-primario.fas.fa-envelope
+                  span Seguridad en las comunicaciones.
+                li
+                  span.d-inline-flex.align-items-center.justify-content-center.p-1.text-white.fondo-color-primario.fas.fa-solid.fa-shield-halved
+                    svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512")
+                      path(fill="#ffffff" d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z")
+                  span Seguridad en ambiente de producción.
+
+            .col-lg-5.order-first.order-lg-last.contenedor-figura-posicionada-1
+              figure.mb-4.mb-lg-0.figura-posicionada-1
+                img.mx-auto(src="@/assets/curso/temas/36.png",style="max-width: 295px;")
+
+    .row.align-items-center.mt-4.mt-lg-0.mb-4
+      .col-md-3.col-lg-2
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/38.png",style="max-width: 125px;")
+      .col-md-9.col-lg-10
+        p.mb-0 En esta etapa, el objetivo es facilitar el trabajo en equipo, evitando reprocesos y pérdida de trabajo. Por ello, es crucial utilizar herramientas que permitan sincronizar el trabajo y guardar la información de forma colaborativa. Además, se recomienda emplear buenas prácticas estandarizadas por organizaciones como OWASP o CERT, las cuales se detallarán más adelante. No obstante, es importante considerar las buenas prácticas para una adecuada codificación, tales como:
 
     .fondo-personalizado-2.pos-2
       .fondo-personalizado-2__contenido
-        .row.mb-4
-          .col-lg-8.mb-4.mb-lg-0
-            .fondo-color-sistema-i.borde-24.p-4
-              .row.align-items-center
-                .col-md-3.col-lg-2
-                  figure.mb-4.mb-lg-0
-                    img.mx-auto(src="@/assets/curso/temas/38.png",style="max-width: 125px;")
-                .col-md-9.col-lg-10
-                  p.mb-0 En esta etapa, el objetivo es facilitar el trabajo en equipo, evitando reprocesos y pérdida de trabajo. Por ello, es crucial utilizar herramientas que permitan sincronizar el trabajo y guardar la información de forma colaborativa. Además, se recomienda emplear buenas prácticas estandarizadas por organizaciones como OWASP o CERT, las cuales se detallarán más adelante. No obstante, es importante considerar las buenas prácticas para una adecuada codificación, tales como:
-          .col-lg-4
-            figure
-              img.mx-auto(src="@/assets/curso/temas/37.png",style="max-width: 400px;")
-
-
         
         SlyderF.estilo-slyder.mb-5(columnas="col-lg-6",data-aos="flip-down")
-          .tarjeta.color-secundario.p-3.borde-10.d-flex.align-items-center
-            .row.align-items-center
-              .col-lg-6
-                .fondo-color-sistema-i.p-2.borde-14.mb-3.mb-lg-0
-                  figure
-                    img.mx-auto(src="@/assets/curso/temas/8.svg",style="max-width: 250px;",alt="La figura describe el concepto de una excepción en programación: un objeto que representa un error e interrumpe el flujo normal de ejecución de un método, siendo luego manejado por el sistema en tiempo de ejecución.")
-              .col-lg-6
-                p.mb-0.text-center.fw-bold Manejo de excepciones.
-          .tarjeta.color-secundario.p-3.borde-10.d-flex.align-items-center
-            .row.align-items-center.justify-content-center
-              .col-lg-12
-                figure.mb-3
-                  img.mx-auto(src="@/assets/curso/temas/14.png",style="max-width: 310px;",alt="La figura muestra la configuración que explica cómo se sobrescriben los valores predeterminados en un entorno de desarrollo.")
-              .col-lg-12
-                p.mb-0.text-center.fw-bold Documentación de líneas o funciones.
-          .tarjeta.color-secundario.p-3.borde-10.d-flex.align-items-center
-            .row.align-items-center.justify-content-center
-              .col-lg-12
-                figure.mb-3
-                  img.mx-auto(src="@/assets/curso/temas/15.png",style="max-width: 323px;",alt="La imagen presenta un fragmento de código CSS para ajustar la posición de los iconos de control en un carrusel de interfaz de usuario, es parte de una depuración para eliminar o corregir código inservible.")
-              .col-lg-12
-                p.mb-0.text-center.fw-bold Depuración de código inservible.
-          .tarjeta.color-secundario.p-3.borde-10.d-flex.align-items-center
-            .row.align-items-center.justify-content-center
-              .col-lg-12
-                figure.mb-3
-                  img.mx-auto(src="@/assets/curso/temas/16.png",style="max-width: 323px;",alt="El fragmento de código muestra una función 'getDataSlider' que segmenta un arreglo de datos en grupos para un carrusel, utilizando variables nombradas 'carousel' y 'array' para este proceso.")
-              .col-lg-12
-                p.mb-0.text-center.fw-bold Métodos de nombramiento para las funciones y variables.
-          .tarjeta.color-secundario.p-3.borde-10.d-flex.align-items-center
-            .row.align-items-center.justify-content-center
-              .col-lg-12
-                figure.mb-3
-                  img.mx-auto(src="@/assets/curso/temas/17.png",style="max-width: 323px;",alt="El fragmento de código CSS muestra estilos para contenedores con un diseño flexible y elementos individuales que indican interactividad, contribuyendo a la claridad y facilidad de mantenimiento del diseño de la interfaz.")
-              .col-lg-12
-                p.mb-0.text-center.fw-bold Código legible para mejorar el mantenimiento de las aplicaciones.
+          .tarjeta.d-flex.flex-column.color-secundario.borde-14(style="overflow:hidden;background-color: #E3EAF2;")
+            .h-100.d-flex.align-items-center.px-2
+              figure
+                img(src="@/assets/curso/temas/65.png",alt="La figura describe el concepto de una excepción en programación: un objeto que representa un error e interrumpe el flujo normal de ejecución de un método, siendo luego manejado por el sistema en tiempo de ejecución.")
+            .fondo-color-secundario.d-flex.justify-content-center.align-items-center.px-4(style="height: 123px;")
+              p.mb-0.text-center Manejo de excepciones.
+          .tarjeta.d-flex.flex-column.color-secundario.borde-14(style="overflow:hidden;background-color: #1E1E1E;")
+            .h-100
+              figure
+                img(src="@/assets/curso/temas/14.png",alt="La figura muestra la configuración que explica cómo se sobrescriben los valores predeterminados en un entorno de desarrollo.")
+            .fondo-color-secundario.d-flex.justify-content-center.align-items-center.px-4(style="height: 123px;")
+              p.mb-0.text-center Documentación de líneas o funciones.
+          .tarjeta.d-flex.flex-column.color-secundario.borde-14(style="overflow:hidden;background-color: #1E1E1E;")
+            .h-100
+              figure
+                img(src="@/assets/curso/temas/15.png",alt="La imagen presenta un fragmento de código CSS para ajustar la posición de los iconos de control en un carrusel de interfaz de usuario, es parte de una depuración para eliminar o corregir código inservible.")
+            .fondo-color-secundario.d-flex.justify-content-center.align-items-center.px-4(style="height: 123px;")
+              p.mb-0.text-center Depuración de código inservible.
+          .tarjeta.d-flex.flex-column.color-secundario.borde-14(style="overflow:hidden;background-color: #1E1E1E;")
+            .h-100
+              figure
+                img(src="@/assets/curso/temas/16.png",alt="El fragmento de código muestra una función 'getDataSlider' que segmenta un arreglo de datos en grupos para un carrusel, utilizando variables nombradas 'carousel' y 'array' para este proceso.")
+            .fondo-color-secundario.d-flex.justify-content-center.align-items-center.px-4(style="height: 123px;")
+              p.mb-0.text-center Métodos de nombramiento para las funciones y variables.
+          .tarjeta.d-flex.flex-column.color-secundario.borde-14(style="overflow:hidden;background-color: #1E1E1E;")
+            .h-100
+              figure
+                img(src="@/assets/curso/temas/64.png",alt="El fragmento de código CSS muestra estilos para contenedores con un diseño flexible y elementos individuales que indican interactividad, contribuyendo a la claridad y facilidad de mantenimiento del diseño de la interfaz.")
+            .fondo-color-secundario.d-flex.justify-content-center.align-items-center.px-4(style="height: 123px;")
+              p.mb-0.text-center Código legible para mejorar el mantenimiento de las aplicaciones.
 
         Separador
 
@@ -289,40 +302,34 @@
     #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5 Seguridad en el proceso de despliegue y mantenimiento
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/40.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4.fondo-color-sistema-i
-        p.mb-0 Una buena práctica consiste en asegurar que los servidores destinados a los despliegues de mantenimiento, desarrollo y producción mantengan configuraciones casi idénticas. La razón por la cual se dice "casi idénticas" es que existen ciertas configuraciones que pueden variar ligeramente debido al acceso a las aplicaciones, pero, en cuanto a características generales, deberían ser iguales. Esto permite que, al realizar pruebas, las aplicaciones se comporten de manera similar en diferentes entornos.
+    .row.mb-4
+      .col-lg-8
+        p.mb-4 Una buena práctica consiste en asegurar que los servidores destinados a los despliegues de mantenimiento, desarrollo y producción mantengan configuraciones casi idénticas. La razón por la cual se dice "casi idénticas" es que existen ciertas configuraciones que pueden variar ligeramente debido al acceso a las aplicaciones, pero, en cuanto a características generales, deberían ser iguales. Esto permite que, al realizar pruebas, las aplicaciones se comporten de manera similar en diferentes entornos.
 
+        .fondo-color-secundario.p-3.borde-8
+          .row.align-items-center
+            .col-md-3
+              figure.mb-4.mb-lg-0
+                img.mx-auto(src="@/assets/curso/temas/66.png",style="max-width: 98px;")
+            .col-md-9
+              p.mb-0.text-white Los requisitos cruciales a considerar en esta fase incluyen:
+              p.mb-0.text-white Aseguramiento basado en riesgos y pruebas de seguridad, incluyendo pruebas de caja blanca y caja negra.
+
+      .col-lg-4.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/67.png",style="max-width: 400px;")
+
+    
+    .row.align-items-center.mb-5
+      .col-lg-7
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/43.png",style="max-width: 715px;")
+      .col-lg-5
+        .fondo-color-sistema-i.borde-16.p-3.py-4
+          p.mb-0 Además, es necesario configurar la red y gestionar el acceso de manera que solo las personas autorizadas puedan acceder a ella. Es importante tener en cuenta la arquitectura diseñada en etapas anteriores para entender bien los tipos de configuración. Configurar los accesos y la red para despliegues directos en la nube o en un servidor local implica consideraciones diferentes. OWASP también ofrece guías sobre cómo probar estos tipos de aseguramientos.
     
     .fondo-personalizado-1.pos-2
       .fondo-personalizado-1__contenido
-        .row.mb-5.seccion-tarjetas-2.justify-content-center(data-aos="flip-up")
-          .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-3.p-4.h-100
-              .seccion-tarjetas__cont-figura-1.mb-4.mx-auto
-                figure
-                  img(src='@/assets/curso/temas/41.png')
-
-              p.text-center Los requisitos cruciales a considerar en esta fase incluyen:
-          .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-4.p-4.h-100
-              .seccion-tarjetas__cont-figura-1.mb-4.mx-auto
-                figure
-                  img(src='@/assets/curso/temas/42.png')
-
-              p.text-center Aseguramiento basado en riesgos y pruebas de seguridad, incluyendo pruebas de caja blanca y caja negra.
-        
-        .row.align-items-center.mb-5
-          .col-lg-7
-            figure.mb-4.mb-lg-0
-              img.mx-auto(src="@/assets/curso/temas/43.png",style="max-width: 715px;")
-          .col-lg-5
-            .fondo-color-sistema-i.borde-16.p-3.py-4
-              p.mb-0 Además, es necesario configurar la red y gestionar el acceso de manera que solo las personas autorizadas puedan acceder a ella. Es importante tener en cuenta la arquitectura diseñada en etapas anteriores para entender bien los tipos de configuración. Configurar los accesos y la red para despliegues directos en la nube o en un servidor local implica consideraciones diferentes. OWASP también ofrece guías sobre cómo probar estos tipos de aseguramientos.
-
         .cont-titulo-decorativo.p-2.mt-5.mb-4
           .row
             .col-auto.pe-0
@@ -370,13 +377,11 @@
               h4.text-center NIST
               p Es una agencia del Departamento de Comercio de EE. UU. que ofrece un Marco de Ciberseguridad para ayudar a las empresas a comprender, gestionar y mitigar sus riesgos cibernéticos y proteger sus redes y datos.
 
-    p.mb-5 En la siguiente tabla, se proporciona una perspectiva global de algunas normas que abordan la definición de ciberseguridad.
+        p.mb-5 En la siguiente tabla, se proporciona una perspectiva global de algunas normas que abordan la definición de ciberseguridad.
 
-    .titulo-sexto.color-acento-contenido
-      p.mb-0 #[b Tabla 1.] #[em Normas relacionadas con la ciberseguridad]
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Tabla 1.] #[em Normas relacionadas con la ciberseguridad]
 
-    .fondo-personalizado-1
-      .fondo-personalizado-1__contenido
         .tabla-a.color-acento-contenido.mb-5.bg-white.mb-5(data-aos="zoom-in-up")
           table
             caption.fw-normal #[em Nota]. Gestión de la ciberseguridad según el ISO/IEC 27032:2012. ,2021)
@@ -443,7 +448,47 @@
                 td Origen Malicioso
                 td Activos en el Ciberespacio
 
-        p(style="color:red;") Falta componente movil y destokp acaaa!!!
+    .fondo-personalizado-4.pos-1
+      .fondo-personalizado-4__contenido
+        .row.align-items-center.justify-content-center.mb-5
+          .col-lg-5.d-none.d-lg-block
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/68.png",style="max-width: 505px;")
+          .col-lg-5
+            .fondo-color-sistema-m.bmd-none.borde-20.px-3.py-4.mb-4.p-lg-0.bg-lg-none
+              p.mb-0 La norma ISO/IEC 27032:2020 "Tecnología de la información - Técnicas de seguridad - Directrices para la ciberseguridad" establece un marco de trabajo diseñado para mejorar el estado de la ciberseguridad. Propone varios puntos estratégicos y técnicos necesarios para esta actividad, así como sus interdependencias con otros dominios de seguridad, incluyendo:
+            figure.mb-4.mb-lg-0.d-lg-none
+              img.mx-auto(src="@/assets/curso/temas/68.png",style="max-width: 505px;")
+            .borde-18.mb-4.p-2.p-lg-0.mx-5.mx-lg-0(style="background-color: #A18A29;")
+              .row.align-items-center
+                .col-lg-3
+                  figure.d-none.d-lg-block
+                    img.mx-auto(src="@/assets/curso/temas/69.png",style="max-width: 57px;")
+                .col-lg-9
+                  p.mb-0.text-white.text-center.text-lg-start.fw-bold Seguridad de la información.
+            .borde-18.mb-4.p-2.p-lg-0.mx-5.mx-lg-0(style="background-color: #892758;")
+              .row.align-items-center
+                .col-lg-3
+                  figure.d-none.d-lg-block
+                    img.mx-auto(src="@/assets/curso/temas/70.png",style="max-width: 57px;")
+                .col-lg-9
+                  p.mb-0.text-white.text-center.text-lg-start.fw-bold Seguridad en internet.
+            .borde-18.mb-4.p-2.p-lg-0.mx-5.mx-lg-0(style="background-color: #5F2789;")
+              .row.align-items-center
+                .col-lg-3
+                  figure.d-none.d-lg-block
+                    img.mx-auto(src="@/assets/curso/temas/71.png",style="max-width: 57px;")
+                .col-lg-9
+                  p.mb-0.text-white.text-center.text-lg-start.fw-bold Seguridad en redes.
+            .borde-18.mb-4.p-2.p-lg-0.mx-5.mx-lg-0(style="background-color: #007AA8;")
+              .row.align-items-center
+                .col-lg-3
+                  figure.d-none.d-lg-block
+                    img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 57px;")
+                .col-lg-9
+                  p.mb-0.text-white.text-center.text-lg-start.fw-bold La protección de infraestructuras críticas de información.
+    
+
 
         .row.justify-content-center.mb-5
           .col-lg-10
@@ -456,7 +501,74 @@
         p.mb-4 La norma se enfoca en la seguridad del ciberespacio o cuestiones de ciberseguridad, con un énfasis particular en establecer conexiones entre diferentes brechas de la web. Este documento ofrece una guía técnica para abordar los riesgos comunes de ciberseguridad.
 
         p.mb-4 Dado el aumento en la frecuencia y la sofisticación de los ciberataques, se reconoce claramente la necesidad de proteger los recursos y activos. Surge entonces la importante pregunta:
-          
+
+
+        .row.justify-content-center.mb-5
+          .col-lg-2.col-4.pe-0
+            .fondo-color-secundario.p-md-4.h-100.d-flex.justify-content-center.flex-column(style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;")
+              figure
+                img.mx-auto(src="@/assets/curso/temas/73.svg",style="max-width: 125px;")
+          .col-lg-6.col-8.ps-0
+            .fondo-color-sistema-i.p-3.h-100.d-flex.align-items-center(style="border-top-right-radius: 20px;border-bottom-right-radius: 20px;")
+              .bg-white.p-2.p-md-3.h-100.d-flex.align-items-center.flex-column(style="border-top-right-radius: 18px;border-bottom-right-radius: 18px;")
+                p.mb-4.fw-bold.align-self-start ¿Cómo empezar?
+                p.mb-0(style="color:#0F6BD2;") Aquí es donde los marcos de referencia, que se han venido desarrollando y adoptando, juegan un papel crucial, ya que proveen información valiosa y útil para el diseño de procesos de control y mitigación de riesgos de ciberseguridad.
+
+    .row.align-items-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0
+        .fondo-color-sistema-i.borde-8.p-3.mb-4
+          p.mb-0 Aunque es esencial elegir un marco de referencia y trabajar con él, es importante recordar que son solo una guía y no ofrecen soluciones definitivas. El enfoque en el análisis de riesgos es también crucial; cada marco propone una serie de controles entre los cuales se debe elegir los más aplicables al entorno específico y, si es necesario, realizar adopciones o ajustes de otros marcos de referencia.
+        .fondo-color-secundario.borde-8.p-3
+          p.mb-0.text-white Los marcos de referencia más utilizados y desarrollados incluyen propósitos particulares para su adopción y una breve descripción, aunque no se han detallado específicamente aquí.
+      .col-lg-4
+        figure
+          img.mx-auto(src="@/assets/curso/temas/74.png",style="max-width: 400px;")
+
+    p.mb-4 Los marcos de referencia más utilizados son:
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta no-border-radius fondo-color-sistema-i" data-aos="fade")
+      .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="NIST CSF")
+        .col-md-6.mb-4.mb-md-0
+          p.mb-4 #[b NIST CSF] #[em (National Institute of Standards and Technology - Cybersecurity Framework) - Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología.]
+
+          p.mb-0 Este marco de trabajo se diseñó para asistir a organizaciones de cualquier tamaño en la identificación, comprensión, gestión y mitigación de riesgos cibernéticos, mejorando la seguridad de sus redes y datos. Ofrece un lenguaje unificado y buenas prácticas basadas en normas de autoridades como ISO, ITU, CIS, y NIST. Clasifica estas prácticas por afinidad y sus recomendaciones enfatizan en la gestión de riesgos cibernéticos como un aspecto crucial en la seguridad organizacional. También busca mejorar la comunicación sobre gestión de riesgos y ciberseguridad entre responsables de seguridad y partes externas.
+      
+        .col-md-6
+          figure
+            img.mx-auto(src="@/assets/curso/temas/75.png",style="max-width: 605px;",alt="La imagen Fases del NISTCSF detalla un marco de ciberseguridad con cinco fases secuenciales: Identificar para conocer el entorno y riesgos; Proteger aplicando controles para mitigar riesgos; Detectar mediante monitoreo continuo; Responder para disminuir el impacto de incidentes; y Recuperar enfocado en la resiliencia y restauración tras un incidente. Cada fase contribuye a la gestión integral de la seguridad de la información en una organización")
+      .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="ISO / IEC 27001: 2013")
+        .col-md-6.mb-4.mb-md-0
+          p.mb-4 #[b ISO / IEC 27001: 2013]
+          p.mb-0 Creado por la Organización Internacional de Normalización (ISO), este marco de trabajo ha demostrado ser eficaz para empresas de todo tipo y tamaño alrededor del mundo, convirtiéndose en el marco más conocido e implementado internacionalmente. Su enfoque principal reside en la norma ISO 27001, centrada en la protección de la integridad, disponibilidad y confidencialidad de la información. La esencia de esta propuesta se basa en la gestión de riesgos: identificar dónde se encuentran los riesgos y cómo abordarlos de manera metodológica.
+
+      
+        .col-md-6
+          figure
+            img.mx-auto(src="@/assets/curso/temas/76.svg",style="max-width: 605px;",alt="La imagen ISO/IEC 27001: 2013 ilustra un marco para la gestión de seguridad de la información centrado en un ciclo de mejora continua con las fases de planificar, hacer, verificar y actuar. Alrededor de este ciclo se organizan ocho dominios del estándar que incluyen políticas de seguridad, seguridad organizacional, gestión de activos y otros aspectos cruciales para proteger la información en una organización.")
+      .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="COBIT")
+        .col-md-6.mb-4.mb-md-0
+          p.mb-4 #[b COBIT (Objetivos de Control para Información y Tecnologías Relacionadas. En inglés: Control Objectives for Information and related Technology)]
+          p.mb-0 El marco de trabajo COBIT, creado por ISACA, se enfoca en el gobierno de TI con un énfasis en los procesos empresariales, similar a los marcos de NIST e ISO. Utilizado especialmente en el sector público y para el cumplimiento de normativas legales en la gestión de TI, COBIT ofrece un conjunto de mejores prácticas, herramientas de control, supervisión, mapas de auditoría, y técnicas para la implementación y gestión eficaz de las tecnologías de la información.
+      
+        .col-md-6
+          figure
+            img.mx-auto(src="@/assets/curso/temas/77.svg",style="max-width: 605px;",alt="La  imagen COBIT Core representa un modelo de referencia para la gobernanza y gestión de TI que se basa en los estándares y contribuciones de COBIT . Incorpora factores de diseño como estrategias empresariales y requerimientos de TI, y se enfoca en aplicar la gobernanza a áreas específicas como seguridad y riesgos, entre otras, para adaptarla a las necesidades tecnológicas de la empresa.")
+      .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="HITRUST CSF")
+        .col-md-6.mb-4.mb-md-0
+          p.mb-4 #[b HITRUST CSF (Health Information Trust Alliance - Cybersecurity Framework)]
+          p.mb-0 Este marco fue desarrollado por la Health Information Trust Alliance (HITRUST), siendo ampliamente utilizado en la industria de la salud de Estados Unidos. HITRUST creó el CSF (Cybersecurity Framework – Marco de Ciberseguridad) para identificar elementos clave y posibles riesgos en entidades de salud, abarcando el conjunto de controles más extenso que podría aplicarse a cualquier organización. Es, posiblemente, el marco de trabajo que recibe actualizaciones con mayor frecuencia.
+      
+        .col-md-6
+          figure
+            img.mx-auto(src="@/assets/curso/temas/78.svg",style="max-width: 605px;",alt="La imagen  HITRUST CSF Controls muestra la relación entre las Funciones Principales del Framework NIST Cybersecurity y los Criterios CSF de HITRUST, los cuales guían la confección de un documento a través de un Proceso de confección. Este proceso utiliza Controles de objetivos de HITRUST CSF y una Evaluación de HITRUST CSF para establecer controles de seguridad efectivos.")
+      .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="CSA")
+        .col-md-6.mb-4.mb-md-0
+          p.mb-4 #[b CSA. Cloud Controls Matrix]
+          p.mb-0 Este marco fue desarrollado por la Cloud Security Alliance (CSA), diseñado específicamente para los proveedores de servicios en la nube. Dado que la estructura del almacenamiento de datos en servicios de nube se enfrenta a riesgos únicos de este entorno, se requieren controles de seguridad especializados para la industria. Este marco proporciona una guía al respecto. La matriz de controles para servicios en la nube se actualiza con frecuencia, haciéndola atractiva para proveedores de servicios IT en la nube de cualquier tamaño. Además, busca estandarizar las expectativas de seguridad, así como la taxonomía y terminología relacionadas con los servicios en la nube.
+
+        .col-md-6
+          figure
+            img.mx-auto(src="@/assets/curso/temas/79.png",style="max-width: 605px;")
     
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Tabla 2.] Matriz de control de acceso
