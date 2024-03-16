@@ -2,25 +2,25 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Marco de Referencia en Gestión de la seguridad
 
-    .row.mb-5.align-items-center
+    .row.mb-5.align-items-center(data-aos="fade")
       .col-lg-10(data-aos="fade-right")
         p.mb-0 El #[em software] y la forma en que se accede a las aplicaciones exigen que arquitectos, diseñadores y programadores se centren en la seguridad de estas. Por lo tanto, es importante tener en cuenta que la seguridad no solo implica la configuración de acceso, las redes o los usuarios, sino que debe considerarse durante todo el proceso de desarrollo de las aplicaciones. Esto incluye seguir estándares de programación y adoptar buenas prácticas de desarrollo, como la norma ISO/IEC 27034:2011, COBIT y OWASP.
       .col-lg-2(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/27.png",style="max-width: 190px;")
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade")
       p.mb-0 #[b Figura 1.] Ciclo de vida de desarrollo de #[em software]
-    .fondo-color-sistema-j.p-4.p-lg-5.borde-19.mb-4
+    .fondo-color-sistema-j.p-4.p-lg-5.borde-19.mb-4(data-aos="zoom-in-up")
       figure
         img.mx-auto(src="@/assets/curso/temas/2.png",style="max-width: 874px;",alt="La imagen muestra un diagrama del ciclo de vida del desarrollo seguro de software, compuesto por fases secuenciales: requerimientos, diseño, desarrollo, pruebas, despliegue y operaciones. este ciclo es iterativo, indicando que las operaciones pueden llevar a nuevos requerimientos.")
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-2.col-4.pe-0
         .fondo-color-secundario.p-md-4.h-100.d-flex.justify-content-center.flex-column(style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;")
           h4.text-white.text-center Según Norma técnica ISO /IEC 27034-1:2011
@@ -32,16 +32,16 @@
             p.mb-0 El estándar ISO/IEC 27034 proporciona un estándar reconocido internacionalmente para la seguridad de las aplicaciones.
             p.mb-0(style="color:#0F6BD2;") “Tecnología de la información- Técnicas de seguridad-Directrices para la preparación de la tecnología de la información y las comunicaciones para la continuidad del negocio”.
 
-    p.mb-5 Dentro de este marco de referencia se quiere enfocar en algunos aspectos relevantes del aseguramiento desde el desarrollo del #[em software].
+    p.mb-5(data-aos="fade") Dentro de este marco de referencia se quiere enfocar en algunos aspectos relevantes del aseguramiento desde el desarrollo del #[em software].
 
     Separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.1 Seguridad en el análisis de requerimientos
 
     .fondo-personalizado-1.pos-1
       .fondo-personalizado-1__contenido
-        .row.mb-5
+        .row.mb-5(data-aos="fade-right")
           .col-lg-8
             .bloque-texto-b.btxt-personalizado-1.color-primario
               p.bloque-texto-b__texto.pb-4 Con respecto a la seguridad en esta etapa del desarrollo, es crucial tener en cuenta las normas y políticas. De esta manera, los desarrolladores sabrán desde el principio qué funcionarios o roles tienen permitido realizar ciertas acciones y cuáles no. Esto facilitará la comprensión de la gestión de usuarios con sus roles y autenticación en las aplicaciones. Se deben evaluar posibles riesgos tales como la comunicación de datos con terceros, políticas de confidencialidad, seguridad de los datos de usuarios que acceden y se registran en la aplicación, y los respaldos de seguridad de la información, entre otros. Además, será posible analizar la estructura para auditar cambios en la información, identificando quién y cuándo se agregaron o modificaron datos. Los requisitos generales a considerar incluyen: autenticación, asignación de roles, aprobación de privilegios y evaluación de riesgos.
@@ -50,7 +50,7 @@
               img.mx-auto(src="@/assets/curso/temas/28.png",style="max-width: 400px;")
 
 
-        .row.mb-5.justify-content-center.mb-5
+        .row.mb-5.justify-content-center.mb-5(data-aos="fade-left")
           .col-lg-8
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 2.] #[em Requerimientos de Aseguramiento de calidad]
@@ -59,11 +59,11 @@
 
         Separador
 
-        #t_1_2.titulo-segundo.color-acento-contenido
+        #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
           h2 1.2 Seguridad en el proceso de diseño
 
         .row.mb-5
-          .col-lg-8
+          .col-lg-8(data-aos="fade-down")
             p.mb-4 En la etapa de diseño, es fundamental considerar los procesos y las definiciones de los requisitos de seguridad previamente identificados durante el proceso. Esto incluye, por ejemplo, establecer la periodicidad de las copias de seguridad, el tipo de contraseñas a utilizar (ya sean largas o cortas) y todas sus características, las cuales deberán actualizarse en periodos de tiempo más cortos, además de establecer el cifrado de las comunicaciones y de los datos.
 
             .fondo-color-secundario.p-3.borde-8
@@ -74,7 +74,7 @@
                 .col-md-10
                   p.text-white.mb-0 Durante esta etapa, también se deben tener en cuenta las posibles vulnerabilidades que pueden surgir dependiendo de la arquitectura y el diseño de la aplicación. Por ejemplo:
           
-          .col-lg-4.order-first.order-lg-last
+          .col-lg-4.order-first.order-lg-last(data-aos="fade-up")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/30.png",style="max-width: 400px;")
 
@@ -108,11 +108,11 @@
 
           p Establecer políticas de seguridad para las aplicaciones.
 
-    p.mb-4 Por lo tanto, es esencial diseñar un modelo de seguridad o de amenazas. Este modelo tiene como objetivo organizar, capturar y analizar los riesgos y vulnerabilidades identificados para tomar decisiones de manera rápida y ejercer un control adecuado implementando contramedidas de forma efectiva en el proceso.
+    p.mb-4(data-aos="fade") Por lo tanto, es esencial diseñar un modelo de seguridad o de amenazas. Este modelo tiene como objetivo organizar, capturar y analizar los riesgos y vulnerabilidades identificados para tomar decisiones de manera rápida y ejercer un control adecuado implementando contramedidas de forma efectiva en el proceso.
 
-    p.mb-5 Para elaborar un modelo de amenazas, es importante tener en cuenta los siguientes pasos:
+    p.mb-5(data-aos="fade-up") Para elaborar un modelo de amenazas, es importante tener en cuenta los siguientes pasos:
 
-    SlyderF.mb-4(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-4(columnas="col-lg-6 col-xl-4" data-aos="flip-down")
       .tarjeta.fondo-color-sistema-k.p-4
         .row.justify-content-center.mb-4
           .col-8
@@ -139,7 +139,7 @@
             img.mx-auto(src='@/assets/curso/temas/63.png',style="max-width: 124px;")
         p Implementar y probar las mitigaciones, y sincronizar el modelo con el diseño, considerando los controles de cambios.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-2.col-4.pe-0
         .fondo-color-secundario.p-md-4.h-100.d-flex.justify-content-center.flex-column(style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;")
           figure
@@ -156,16 +156,16 @@
 
     Separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.3 Seguridad en el proceso de codificación
 
-    p.mb-4 En el proceso de desarrollo de #[em software], es crucial considerar cómo los desarrolladores modifican y construyen los distintos componentes de las aplicaciones. Por lo tanto, resulta fundamental estandarizar las prácticas de codificación, documentación e identificación de ciertos requisitos, que incluyen:
+    p.mb-4(data-aos="fade") En el proceso de desarrollo de #[em software], es crucial considerar cómo los desarrolladores modifican y construyen los distintos componentes de las aplicaciones. Por lo tanto, resulta fundamental estandarizar las prácticas de codificación, documentación e identificación de ciertos requisitos, que incluyen:
 
     .row.justify-content-center.contenedor-1
       .col-lg-8.px-0
         .fondo-color-sistema-i.p-4.px-lg-5.pe-lg-0.borde-24
           .row
-            .col-lg-7
+            .col-lg-7(data-aos="fade-right")
             
               ul.lista-ul.lista-tipo-1.size-igual.fa-ul.mb-0.ms-0
                 li
@@ -186,18 +186,18 @@
                       path(fill="#ffffff" d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z")
                   span Seguridad en ambiente de producción.
 
-            .col-lg-5.order-first.order-lg-last.contenedor-figura-posicionada-1
+            .col-lg-5.order-first.order-lg-last.contenedor-figura-posicionada-1(data-aos="fade-left")
               figure.mb-4.mb-lg-0.figura-posicionada-1
                 img.mx-auto(src="@/assets/curso/temas/36.png",style="max-width: 295px;")
 
     .row.align-items-center.mt-4.mt-lg-0.mb-4
-      .col-md-3.col-lg-2
+      .col-md-3.col-lg-2(data-aos="fade-up")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/38.png",style="max-width: 125px;")
-      .col-md-9.col-lg-10
+      .col-md-9.col-lg-10(data-aos="fade-down")
         p.mb-0 En esta etapa, el objetivo es facilitar el trabajo en equipo, evitando reprocesos y pérdida de trabajo. Por ello, es crucial utilizar herramientas que permitan sincronizar el trabajo y guardar la información de forma colaborativa. Además, se recomienda emplear buenas prácticas estandarizadas por organizaciones como OWASP o CERT, las cuales se detallarán más adelante. No obstante, es importante considerar las buenas prácticas para una adecuada codificación, tales como:
 
-    .fondo-personalizado-2.pos-2
+    .fondo-personalizado-2.pos-2(data-aos="flip-up")
       .fondo-personalizado-2__contenido
         
         SlyderF.estilo-slyder.mb-5(columnas="col-lg-6",data-aos="flip-down")
@@ -234,10 +234,10 @@
 
         Separador
 
-        #t_1_4.titulo-segundo.color-acento-contenido
+        #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
           h2 1.4 Seguridad en el proceso de pruebas
 
-        .bloque-texto-g.p-3.p-sm-4.p-md-5.mb-5(style="background-color: #A3BFE4;")
+        .bloque-texto-g.p-3.p-sm-4.p-md-5.mb-5(style="background-color: #A3BFE4;" data-aos="zoom-in-up")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/39.png')})`}"
           )
@@ -247,7 +247,7 @@
 
 
 
-        .slyder-a-personalizado-1.px-3.pb-3.pt-5.mb-5(data-aos="flip-up")
+        .slyder-a-personalizado-1.px-3.pb-3.pt-5.mb-5(data-aos="zoom-in-up")
           .slyder-a-personalizado-1__fondo
             figure.fig-flotante(style="left: 0;top: -140px;max-width:118px;")
               img(src="@/assets/curso/temas/55.svg",style="max-width:118px;")
@@ -299,7 +299,7 @@
 
     Separador
 
-    #t_1_5.titulo-segundo.color-acento-contenido
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5 Seguridad en el proceso de despliegue y mantenimiento
 
     .row.mb-4
@@ -308,29 +308,29 @@
 
         .fondo-color-secundario.p-3.borde-8
           .row.align-items-center
-            .col-md-3
+            .col-md-3(data-aos="fade-up")
               figure.mb-4.mb-lg-0
                 img.mx-auto(src="@/assets/curso/temas/66.png",style="max-width: 98px;")
-            .col-md-9
+            .col-md-9(data-aos="fade-down")
               p.mb-0.text-white Los requisitos cruciales a considerar en esta fase incluyen:
               p.mb-0.text-white Aseguramiento basado en riesgos y pruebas de seguridad, incluyendo pruebas de caja blanca y caja negra.
 
-      .col-lg-4.order-first.order-lg-last
+      .col-lg-4.order-first.order-lg-last(data-aos="fade")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/67.png",style="max-width: 400px;")
 
     
     .row.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/43.png",style="max-width: 715px;")
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right")
         .fondo-color-sistema-i.borde-16.p-3.py-4
           p.mb-0 Además, es necesario configurar la red y gestionar el acceso de manera que solo las personas autorizadas puedan acceder a ella. Es importante tener en cuenta la arquitectura diseñada en etapas anteriores para entender bien los tipos de configuración. Configurar los accesos y la red para despliegues directos en la nube o en un servidor local implica consideraciones diferentes. OWASP también ofrece guías sobre cómo probar estos tipos de aseguramientos.
     
     .fondo-personalizado-1.pos-2
       .fondo-personalizado-1__contenido
-        .cont-titulo-decorativo.p-2.mt-5.mb-4
+        .cont-titulo-decorativo.p-2.mt-5.mb-4(data-aos="flip-up")
           .row
             .col-auto.pe-0
               figure
@@ -338,9 +338,9 @@
             .col.align-self-end
               h3.mt-3.mb-0.me-2 Entidades de estandarización
 
-        p.mb-4 Existen entidades responsables de elaborar normativas de nivel técnico, que, con el apoyo de equipos técnicos compuestos por expertos, definen estándares. Estos estándares son técnicas establecidas en documentos publicados que facilitan la creación de un marco de trabajo para abordar problemas comunes en las organizaciones.
+        p.mb-4(data-aos="fade") Existen entidades responsables de elaborar normativas de nivel técnico, que, con el apoyo de equipos técnicos compuestos por expertos, definen estándares. Estos estándares son técnicas establecidas en documentos publicados que facilitan la creación de un marco de trabajo para abordar problemas comunes en las organizaciones.
 
-        p.mb-4 A continuación, se listan las principales entidades: 
+        p.mb-4(data-aos="fade-up") A continuación, se listan las principales entidades: 
 
 
         .row.mb-5.seccion-tarjetas-3
@@ -377,7 +377,7 @@
               h4.text-center NIST
               p Es una agencia del Departamento de Comercio de EE. UU. que ofrece un Marco de Ciberseguridad para ayudar a las empresas a comprender, gestionar y mitigar sus riesgos cibernéticos y proteger sus redes y datos.
 
-        p.mb-5 En la siguiente tabla, se proporciona una perspectiva global de algunas normas que abordan la definición de ciberseguridad.
+        p.mb-5(data-aos="fade") En la siguiente tabla, se proporciona una perspectiva global de algunas normas que abordan la definición de ciberseguridad.
 
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 1.] #[em Normas relacionadas con la ciberseguridad]
@@ -452,12 +452,12 @@
       .fondo-personalizado-4__contenido
         .row.align-items-center.justify-content-center.mb-5
           .col-lg-5.d-none.d-lg-block
-            figure.mb-4.mb-lg-0
+            figure.mb-4.mb-lg-0(data-aos="fade-right")
               img.mx-auto(src="@/assets/curso/temas/68.png",style="max-width: 505px;")
           .col-lg-5
-            .fondo-color-sistema-m.bmd-none.borde-20.px-3.py-4.mb-4.p-lg-0.bg-lg-none
+            .fondo-color-sistema-m.bmd-none.borde-20.px-3.py-4.mb-4.p-lg-0.bg-lg-none(data-aos="fade-down")
               p.mb-0 La norma ISO/IEC 27032:2020 "Tecnología de la información - Técnicas de seguridad - Directrices para la ciberseguridad" establece un marco de trabajo diseñado para mejorar el estado de la ciberseguridad. Propone varios puntos estratégicos y técnicos necesarios para esta actividad, así como sus interdependencias con otros dominios de seguridad, incluyendo:
-            figure.mb-4.mb-lg-0.d-lg-none
+            figure.mb-4.mb-lg-0.d-lg-none(data-aos="fade")
               img.mx-auto(src="@/assets/curso/temas/68.png",style="max-width: 505px;")
             .borde-18.mb-4.p-2.p-lg-0.mx-5.mx-lg-0(style="background-color: #A18A29;")
               .row.align-items-center
@@ -495,15 +495,15 @@
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 3.] #[em Estructura de la norma ISO/IEC 27032:2020]
 
-            figure
+            figure(data-aos="zoom-in-up")
               img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 1030px;",alt="La figura Estructura de la norma ISO/IEC 27032:2020 descompone la norma en secciones que incluyen su alcance, aplicabilidad, términos clave, y referencias normativas. Se detalla en aspectos como generalidades, roles de los interesados, amenazas de seguridad, y controles en el ciberespacio, culminando en un marco para el intercambio y coordinación de información de seguridad cibernética.")
 
-        p.mb-4 La norma se enfoca en la seguridad del ciberespacio o cuestiones de ciberseguridad, con un énfasis particular en establecer conexiones entre diferentes brechas de la web. Este documento ofrece una guía técnica para abordar los riesgos comunes de ciberseguridad.
+        p.mb-4(data-aos="fade-right") La norma se enfoca en la seguridad del ciberespacio o cuestiones de ciberseguridad, con un énfasis particular en establecer conexiones entre diferentes brechas de la web. Este documento ofrece una guía técnica para abordar los riesgos comunes de ciberseguridad.
 
-        p.mb-4 Dado el aumento en la frecuencia y la sofisticación de los ciberataques, se reconoce claramente la necesidad de proteger los recursos y activos. Surge entonces la importante pregunta:
+        p.mb-4(data-aos="fade-left") Dado el aumento en la frecuencia y la sofisticación de los ciberataques, se reconoce claramente la necesidad de proteger los recursos y activos. Surge entonces la importante pregunta:
 
 
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="flip-up")
           .col-lg-2.col-4.pe-0
             .fondo-color-secundario.p-md-4.h-100.d-flex.justify-content-center.flex-column(style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;")
               figure
@@ -516,15 +516,15 @@
 
     .row.align-items-center.mb-4
       .col-lg-8.mb-4.mb-lg-0
-        .fondo-color-sistema-i.borde-8.p-3.mb-4
+        .fondo-color-sistema-i.borde-8.p-3.mb-4(data-aos="fade-up")
           p.mb-0 Aunque es esencial elegir un marco de referencia y trabajar con él, es importante recordar que son solo una guía y no ofrecen soluciones definitivas. El enfoque en el análisis de riesgos es también crucial; cada marco propone una serie de controles entre los cuales se debe elegir los más aplicables al entorno específico y, si es necesario, realizar adopciones o ajustes de otros marcos de referencia.
-        .fondo-color-secundario.borde-8.p-3
+        .fondo-color-secundario.borde-8.p-3(data-aos="fade-down")
           p.mb-0.text-white Los marcos de referencia más utilizados y desarrollados incluyen propósitos particulares para su adopción y una breve descripción, aunque no se han detallado específicamente aquí.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/74.png",style="max-width: 400px;")
 
-    p.mb-4 Los marcos de referencia más utilizados son:
+    p.mb-4(data-aos="fade") Los marcos de referencia más utilizados son:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta no-border-radius fondo-color-sistema-i" data-aos="fade")
       .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="NIST CSF")
@@ -614,7 +614,7 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Tabla 3.] Gestión de Matriz de control de acceso
 
-    .tabla-a.color-acento-contenido.mb-5.bg-white.mb-5
+    .tabla-a.color-acento-contenido.mb-5.bg-white.mb-5(data-aos="flip-up")
       table
         thead
           tr

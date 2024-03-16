@@ -127,6 +127,14 @@
     background-color: #645AC2 !important
     p
       color: white !important
+  .tarjeta--boton.color-5:hover
+    background-color: #1B7580 !important
+    p
+      color: white !important
+  .tarjeta--boton.color-6:hover
+    background-color: #A83400 !important
+    p
+      color: white !important
   .tarjeta--boton.color-4:hover
     background-color: #FFEDA7 !important
   &__cont-figura-1
@@ -237,7 +245,17 @@
     .figura-paso-1-contenido__texto
       margin-bottom: 0
       padding-right: 2rem
-    
+
+
+.imagen-infografica-personalizada-1
+  .img-infografica__item, .img-infografica-b__item
+    width: 4.5%
+  .tarjeta
+    background-color: white  
+  .img-infografica__item__dot:before
+    opacity: 1
+  .img-infografica__item__numero
+    color: #273A89 !important
 
 //listas
 .lista-tipo-1
@@ -257,6 +275,11 @@
     background-color: $color-sistema-k !important
     top: 70%
     left: 45%
+
+.bloque-texto-b.btxt-personalizado-2
+  &:before
+    background-color: $color-sistema-k !important
+    top: 50%
 
 //Slyder A
 .slyder-a-personalizado-1
@@ -342,6 +365,8 @@
   background-color: $color-sistema-k !important
 .fondo-color-sistema-l
   background-color: $color-sistema-l !important
+.fondo-color-sistema-n
+  background-color: $color-sistema-n !important
 .fondo-color-sistema-m
   background-color: $color-sistema-m !important
   &.bmd-none
@@ -459,5 +484,34 @@
     &:before
       top: 16%
       bottom: 10%
+
+.fondo-personalizado-5
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-color: #88E0EF
+    opacity: 0.3
+  &__contenido
+    position: relative
+
+.fondo-personalizado-6
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background: linear-gradient(180deg, rgba(249,252,255,0.23) 0%, rgba(209,227,245,0.99) 49%, rgba(224,239,255,0) 100%)
+  &__contenido
+    position: relative
 
 //estilos del CF//

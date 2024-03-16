@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 A continuación, se presenta una síntesis de la temática estudiada en el componente formativo. 
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El diagrama muestra la estructura de aseguramiento de una aplicación, que se conecta a plataformas móvil, escritorio y web. Detalla el ciclo de desarrollo desde los requerimientos hasta el mantenimiento, e incluye prácticas de seguridad como matrices de control de acceso y seguridad perimetral, que llevan a realizar pruebas de vulnerabilidad y pruebas OWASP específicas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
