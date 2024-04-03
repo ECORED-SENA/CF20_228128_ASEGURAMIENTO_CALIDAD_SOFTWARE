@@ -21,8 +21,10 @@
 
     p.mb-5(data-aos="fade") Para profundizar en el tema, se invita  a revisar el siguiente video:
 
-    figure.mb-4.mb-lg-0(data-aos="fade-left")
-      img.mx-auto(src="@/assets/curso/temas/imagen-video.png",style="max-width: 1240px;")
+    figure.mb-5(data-aos="zoom-in-up")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/l5_sSIAD8Wo?si=jkwE4bxTruJ0VXyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption Video. Seguridad perimetral
 
 </template>
 
