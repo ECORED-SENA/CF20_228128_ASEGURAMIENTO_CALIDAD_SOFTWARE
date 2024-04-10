@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Marco de Referencia en Gestión de la seguridad
+      h1 Marco de referencia en gestión de la seguridad
 
     .row.mb-5.align-items-center(data-aos="fade")
       .col-lg-10(data-aos="fade-right")
@@ -53,7 +53,7 @@
         .row.mb-5.justify-content-center.mb-5(data-aos="fade-left")
           .col-lg-8
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 2.] #[em Requerimientos de Aseguramiento de calidad]
+              p.mb-0 #[b Figura 2.] Requerimientos de Aseguramiento de calidad
             figure
               img.mx-auto(src="@/assets/curso/temas/3.png",style="max-width: 806px;",alt="La figura muestra un diagrama que destaca los elementos cruciales para un buen Requerimiento de Aseguramiento en seguridad informática: Roles, Riesgos, Privilegios y Autenticación, organizados en un ciclo que sugiere que cada aspecto se conecta y alimenta al siguiente en un proceso continuo.")
 
@@ -149,10 +149,12 @@
           .bg-white.p-2.p-md-3.h-100.d-flex.align-items-center(style="border-top-right-radius: 18px;border-bottom-right-radius: 18px;")
             p.mb-0(style="color:#0F6BD2;") En resumen, en el proceso de diseño, un modelo de seguridad es capaz de identificar las siguientes vulnerabilidades y posibles amenazas, como se muestra a continuación:
         
-    figure.mb-5(data-aos="zoom-in-up")
+    figure.mb-4(data-aos="zoom-in-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/mHAdqq_7FXg?si=sliTNfMnau_O4N8Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/--vUtlPV94c?si=yrlw1c-6iRBtgLrR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video. Análisis, valoración de riesgos y controles de ciberseguridad: Vulnerabilidades y amenazas
+
+    p.mb-5(data-aos="fade") En esta etapa, también se identifican requisitos similares a los de la primera fase, que incluyen: acceso a los componentes, administración del sistema, auditoría, gestión de sesiones, registros históricos, manejo de errores y excepciones, y separación de funciones.
 
     Separador
 
@@ -380,22 +382,22 @@
         p.mb-5(data-aos="fade") En la siguiente tabla, se proporciona una perspectiva global de algunas normas que abordan la definición de ciberseguridad.
 
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Tabla 1.] #[em Normas relacionadas con la ciberseguridad]
+          p.mb-0 #[b Tabla 1.] Normas relacionadas con la ciberseguridad
 
         .tabla-a.color-acento-contenido.mb-5.bg-white.mb-5(data-aos="zoom-in-up")
-          table
+          table(style="width: auto;")
             caption.fw-normal #[em Nota]. Gestión de la ciberseguridad según el ISO/IEC 27032:2012. ,2021)
             thead
               tr
                 th N° 
-                th Origen
-                th Documento
-                th Término
+                th(style="min-width: 180px;") Origen
+                th(style="min-width: 230px;") Documento
+                th(style="min-width: 170px;") Término
                 th Organización
                 th CDI
-                th Intensión
-                th Motivación
-                th Amenazas
+                th(style="min-width: 210px;") Intensión
+                th(style="min-width: 210px;") Motivación
+                th(style="min-width: 210px;") Amenazas
             tbody
               tr
                 td #[b 01]
@@ -404,9 +406,9 @@
                 td Ciberseguridad
                 td ISO
                 td Sí
-                td Solo los activos destinados a internet
-                td No diferenciación Entre actividades maliciosas o no
-                td Sólo los activos virtuales conectados a internet, sin activos físicos
+                td Solo los activos destinados a internet.
+                td No diferenciación Entre actividades maliciosas o no.
+                td Sólo los activos virtuales conectados a internet, sin activos físicos.
               tr
                 td #[b 02]
                 td ISO/IEC JTC1/SC27
@@ -414,19 +416,19 @@
                 td Seguridad de la información
                 td ISO
                 td Sí
-                td Cualquier Origen de Riesgo en el Espacio cibernético
-                td No diferenciación entre malicioso o no intencional
-                td Cualquier Activo
+                td Cualquier Origen de Riesgo en el Espacio cibernético.
+                td No diferenciación entre malicioso o no intencional.
+                td Cualquier Activo.
               tr
                 td #[b 03]
                 td UIT-T
                 td X.1205
                 td Ciberseguridad
                 td UIT
-                td NO
-                td Cualquier Origen de Riesgo en el Espacio cibernético
-                td No diferenciación entre actividades maliciosas o no
-                td Cualquier Activo
+                td No
+                td Cualquier Origen de Riesgo en el Espacio cibernético.
+                td No diferenciación entre actividades maliciosas o no.
+                td Cualquier Activo.
               tr
                 td #[b 04]
                 td NIST
@@ -434,9 +436,9 @@
                 td Ciberseguridad
                 td NIST
                 td Sí
-                td Riesgo Originado exclusivamente en el espacio cibernético
-                td Sólo cubre orígenes maliciosos (ataques cibernéticos)
-                td Sólo los activos virtuales conectados a internet, sin activos físicos
+                td Riesgo Originado exclusivamente en el espacio cibernético.
+                td Sólo cubre orígenes maliciosos (ataques cibernéticos).
+                td Sólo los activos virtuales conectados a internet, sin activos físicos.
               tr
                 td #[b 05]
                 td ISACA
@@ -444,9 +446,9 @@
                 td Ciberseguridad
                 td ISACA
                 td Sí
-                td Certificación  CSX
-                td Origen Malicioso
-                td Activos en el Ciberespacio
+                td Certificación  CSX.
+                td Origen Malicioso.
+                td Activos en el Ciberespacio.
 
     .fondo-personalizado-4.pos-1
       .fondo-personalizado-4__contenido
@@ -529,7 +531,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta no-border-radius fondo-color-sistema-i" data-aos="fade")
       .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="NIST CSF")
         .col-md-6.mb-4.mb-md-0
-          p.mb-4 #[b NIST CSF] #[em (National Institute of Standards and Technology - Cybersecurity Framework) - Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología.]
+          p.mb-4 #[b NIST CSF] #[em (National Institute of Standards and Technology - Cybersecurity Framework)] - Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología.
 
           p.mb-0 Este marco de trabajo se diseñó para asistir a organizaciones de cualquier tamaño en la identificación, comprensión, gestión y mitigación de riesgos cibernéticos, mejorando la seguridad de sus redes y datos. Ofrece un lenguaje unificado y buenas prácticas basadas en normas de autoridades como ISO, ITU, CIS, y NIST. Clasifica estas prácticas por afinidad y sus recomendaciones enfatizan en la gestión de riesgos cibernéticos como un aspecto crucial en la seguridad organizacional. También busca mejorar la comunicación sobre gestión de riesgos y ciberseguridad entre responsables de seguridad y partes externas.
       
@@ -547,7 +549,7 @@
             img.mx-auto(src="@/assets/curso/temas/76.svg",style="max-width: 605px;",alt="La imagen ISO/IEC 27001: 2013 ilustra un marco para la gestión de seguridad de la información centrado en un ciclo de mejora continua con las fases de planificar, hacer, verificar y actuar. Alrededor de este ciclo se organizan ocho dominios del estándar que incluyen políticas de seguridad, seguridad organizacional, gestión de activos y otros aspectos cruciales para proteger la información en una organización.")
       .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="COBIT")
         .col-md-6.mb-4.mb-md-0
-          p.mb-4 #[b COBIT (Objetivos de Control para Información y Tecnologías Relacionadas. En inglés: Control Objectives for Information and related Technology)]
+          p.mb-4 #[b COBIT (Objetivos de Control para Información y Tecnologías Relacionadas. En inglés: #[em Control Objectives for Information and related Technology])]
           p.mb-0 El marco de trabajo COBIT, creado por ISACA, se enfoca en el gobierno de TI con un énfasis en los procesos empresariales, similar a los marcos de NIST e ISO. Utilizado especialmente en el sector público y para el cumplimiento de normativas legales en la gestión de TI, COBIT ofrece un conjunto de mejores prácticas, herramientas de control, supervisión, mapas de auditoría, y técnicas para la implementación y gestión eficaz de las tecnologías de la información.
       
         .col-md-6
@@ -555,106 +557,20 @@
             img.mx-auto(src="@/assets/curso/temas/77.svg",style="max-width: 605px;",alt="La  imagen COBIT Core representa un modelo de referencia para la gobernanza y gestión de TI que se basa en los estándares y contribuciones de COBIT . Incorpora factores de diseño como estrategias empresariales y requerimientos de TI, y se enfoca en aplicar la gobernanza a áreas específicas como seguridad y riesgos, entre otras, para adaptarla a las necesidades tecnológicas de la empresa.")
       .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="HITRUST CSF")
         .col-md-6.mb-4.mb-md-0
-          p.mb-4 #[b HITRUST CSF (Health Information Trust Alliance - Cybersecurity Framework)]
-          p.mb-0 Este marco fue desarrollado por la Health Information Trust Alliance (HITRUST), siendo ampliamente utilizado en la industria de la salud de Estados Unidos. HITRUST creó el CSF (Cybersecurity Framework – Marco de Ciberseguridad) para identificar elementos clave y posibles riesgos en entidades de salud, abarcando el conjunto de controles más extenso que podría aplicarse a cualquier organización. Es, posiblemente, el marco de trabajo que recibe actualizaciones con mayor frecuencia.
+          p.mb-4 #[b HITRUST CSF (Health Information Trust Alliance - #[em Cybersecurity Framework])]
+          p.mb-0 Este marco fue desarrollado por la Health Information Trust Alliance (HITRUST), siendo ampliamente utilizado en la industria de la salud de Estados Unidos. HITRUST creó el CSF (#[em Cybersecurity Framework] - Marco de Ciberseguridad) para identificar elementos clave y posibles riesgos en entidades de salud, abarcando el conjunto de controles más extenso que podría aplicarse a cualquier organización. Es, posiblemente, el marco de trabajo que recibe actualizaciones con mayor frecuencia.
       
         .col-md-6
           figure
             img.mx-auto(src="@/assets/curso/temas/78.svg",style="max-width: 605px;",alt="La imagen  HITRUST CSF Controls muestra la relación entre las Funciones Principales del Framework NIST Cybersecurity y los Criterios CSF de HITRUST, los cuales guían la confección de un documento a través de un Proceso de confección. Este proceso utiliza Controles de objetivos de HITRUST CSF y una Evaluación de HITRUST CSF para establecer controles de seguridad efectivos.")
       .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="CSA")
         .col-md-6.mb-4.mb-md-0
-          p.mb-4 #[b CSA. Cloud Controls Matrix]
+          p.mb-4 #[b CSA. #[em Cloud Controls Matrix]]
           p.mb-0 Este marco fue desarrollado por la Cloud Security Alliance (CSA), diseñado específicamente para los proveedores de servicios en la nube. Dado que la estructura del almacenamiento de datos en servicios de nube se enfrenta a riesgos únicos de este entorno, se requieren controles de seguridad especializados para la industria. Este marco proporciona una guía al respecto. La matriz de controles para servicios en la nube se actualiza con frecuencia, haciéndola atractiva para proveedores de servicios IT en la nube de cualquier tamaño. Además, busca estandarizar las expectativas de seguridad, así como la taxonomía y terminología relacionadas con los servicios en la nube.
 
         .col-md-6
           figure
             img.mx-auto(src="@/assets/curso/temas/79.png",style="max-width: 605px;")
-    
-    .titulo-sexto.color-acento-contenido
-      p.mb-0 #[b Tabla 2.] Matriz de control de acceso
-
-    .tabla-a.color-acento-contenido.mb-5.bg-white.mb-5(data-aos="zoom-in-up")
-      table
-        thead
-          tr
-            th Rol 
-            th Gestión de usuarios
-            th Crear cuenta
-            th Actualizar cuenta
-            th Eliminar cuenta
-            th Crear registro
-            th Consultar estado de cuenta
-        tbody
-          tr
-            td Administrador
-            td
-            td
-            td
-            td
-            td
-            td
-          tr
-            td Auxiliar contable
-            td
-            td
-            td
-            td
-            td
-            td
-          tr
-            td Operador
-            td
-            td
-            td
-            td
-            td
-            td
-
-
-    .titulo-sexto.color-acento-contenido
-      p.mb-0 #[b Tabla 3.] Gestión de Matriz de control de acceso
-
-    .tabla-a.color-acento-contenido.mb-5.bg-white.mb-5(data-aos="flip-up")
-      table
-        thead
-          tr
-            th Rol 
-            th Gestión de usuarios
-            th Crear cuenta
-            th Actualizar cuenta
-            th Eliminar cuenta
-            th Crear registro
-            th Consultar estado de cuenta
-            th Registro de pagos
-        tbody
-          tr
-            td Administrador
-            td x
-            td x
-            td x
-            td x
-            td x
-            td x
-            td x
-          tr
-            td Auxiliar contable
-            td
-            td
-            td
-            td
-            td x
-            td x
-            td x
-          tr
-            td Operador
-            td
-            td
-            td
-            td
-            td
-            td
-            td x
-
 </template>
 
 <script>

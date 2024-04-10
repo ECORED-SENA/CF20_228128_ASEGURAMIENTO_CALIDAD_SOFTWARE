@@ -56,7 +56,7 @@
                     figure.mb-4.mb-lg-0
                       img.mx-auto(src="@/assets/curso/temas/89.png",style="max-width: 281px;")
                   .col-lg-8
-                    p.mb-0.fw-bold Ausencia de Tokens Anti-CSRF:
+                    p.mb-0.fw-bold Ausencia de #[em Tokens] Anti-CSRF:
                     p.mb-0 De acuerdo con el reporte, la página web cuenta con 208 formularios susceptibles a ataques de CSRF. Para solucionar esto, es fundamental entender en qué consiste esta vulnerabilidad. Se puede consultar una guía sobre esta vulnerabilidad en el material complementario. Si utiliza un marco de trabajo como Laravel, Git, Symphony, etc., busque técnicas específicas de su #[em framework]; probablemente.
         .row.justify-content-center.mb-4(data-aos="fade-down")
           .col-lg-10
@@ -67,7 +67,7 @@
                     figure.mb-4.mb-lg-0
                       img.mx-auto(src="@/assets/curso/temas/90.png",style="max-width: 281px;")
                   .col-lg-8
-                    p.mb-0.fw-bold Cookie Sin Bandera HttpOnly:
+                    p.mb-0.fw-bold #[em Cookie] Sin Bandera HttpOnly:
                     p.mb-0 Esta vulnerabilidad permite que otras webs puedan acceder a los datos de presencia de usuario o datos de sesión basados en #[em cookies]. Se puede resolver de varias maneras, siendo quizás la más sencilla agregar una configuración en el servidor.
 
         .fondo-color-sistema-n.p-4.d-inline-block.mb-5(data-aos="fade-left")

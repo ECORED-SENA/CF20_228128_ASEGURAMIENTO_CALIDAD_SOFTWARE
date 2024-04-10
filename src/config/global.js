@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Vulnerabilidades de seguridad',
     descripcionCurso:
-      'Un aspecto importante en el desarrollo de software, es el aseguramiento de la seguridad en cada una de las etapas del proceso de desarrollo incluyendo los despliegues en cada ambiente: desarrollo, pruebas y producción, logrando calidad y confiabilidad de las aplicaciones desarrolladas.',
+      'Un aspecto importante en el desarrollo de <em>software</em> es garantizar la seguridad en cada una de las etapas del proceso, incluyendo los despliegues en los distintos ambientes: desarrollo, pruebas y producción. Esto contribuye a la calidad y confiabilidad de las aplicaciones desarrolladas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -258,12 +258,6 @@ export default {
       link:
         'https://tienda.icontec.org/gp-tecnologias-de-la-informacion-tecnicas-de-seguridad-directrices-para-ciberseguridad-gtc-iso-iec27032-2020.html',
     },
-    {
-      referencia:
-        'Soriano, M. (2014). Seguridad en redes y seguridad de la información. Obtenido de ',
-      link:
-        'http://improvet.cvut.cz/project/download/C2ES/Seguridad_de_Red_e_Informacion.pdf',
-    },
   ],
   creditos: [
     {
@@ -319,6 +313,21 @@ export default {
         {
           nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Actividad Didáctica',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animador y Productor Multimedia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
