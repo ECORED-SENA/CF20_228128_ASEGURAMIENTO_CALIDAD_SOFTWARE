@@ -495,7 +495,7 @@
         .row.justify-content-center.mb-5
           .col-lg-10
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 3.] #[em Estructura de la norma ISO/IEC 27032:2020]
+              p.mb-0 #[b Figura 3.] Estructura de la norma ISO/IEC 27032:2020
 
             figure(data-aos="zoom-in-up")
               img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 1030px;",alt="La figura Estructura de la norma ISO/IEC 27032:2020 descompone la norma en secciones que incluyen su alcance, aplicabilidad, términos clave, y referencias normativas. Se detalla en aspectos como generalidades, roles de los interesados, amenazas de seguridad, y controles en el ciberespacio, culminando en un marco para el intercambio y coordinación de información de seguridad cibernética.")

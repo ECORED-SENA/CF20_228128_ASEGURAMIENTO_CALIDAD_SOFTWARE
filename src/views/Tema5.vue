@@ -77,7 +77,7 @@
         .row.justify-content-center.mb-5(data-aos="fade")
           .col-lg-8
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 5.] #[em OWASP ZAP 2.10.0]
+              p.mb-0 #[b Figura 5.] OWASP ZAP 2.10.0
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/91.png",style="max-width: 820px;",alt="La figura OWASP ZAP 2.10.0 es una captura de pantalla de una herramienta para detectar vulnerabilidades web. Muestra una respuesta HTTP que indica una versión vulnerable de jQuery Mobile, y una lista de alertas de seguridad con detalles como el origen y la descripción de la vulnerabilidad.")
 
