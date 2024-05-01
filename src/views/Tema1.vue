@@ -408,7 +408,7 @@
                 td Sí
                 td Solo los activos destinados a internet.
                 td No diferenciación Entre actividades maliciosas o no.
-                td Sólo los activos virtuales conectados a internet, sin activos físicos.
+                td Solo los activos virtuales conectados a internet, sin activos físicos.
               tr
                 td #[b 02]
                 td ISO/IEC JTC1/SC27
@@ -437,8 +437,8 @@
                 td NIST
                 td Sí
                 td Riesgo Originado exclusivamente en el espacio cibernético.
-                td Sólo cubre orígenes maliciosos (ataques cibernéticos).
-                td Sólo los activos virtuales conectados a internet, sin activos físicos.
+                td Solo cubre orígenes maliciosos (ataques cibernéticos).
+                td Solo los activos virtuales conectados a internet, sin activos físicos.
               tr
                 td #[b 05]
                 td ISACA
