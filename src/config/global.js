@@ -228,7 +228,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Atico34  (2021). Seguridad perimetral informática. Qué es y objetivos.',
+        'Atico34 (2021). Definición de seguridad perimetral informática. Qué es y objetivos.',
       link:
         'https://protecciondatos-lopd.com/empresas/seguridad-perimetral-informatica/#Definicion_de_seguridad_perimetral',
     },
