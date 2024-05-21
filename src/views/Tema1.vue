@@ -108,7 +108,7 @@
 
           p Establecer políticas de seguridad para las aplicaciones.
 
-    p.mb-4(data-aos="fade") Por lo tanto, es esencial diseñar un modelo de seguridad o de amenazas. Este modelo tiene como objetivo organizar, capturar y analizar los riesgos y vulnerabilidades identificados para tomar decisiones de manera rápida y ejercer un control adecuado implementando contramedidas de forma efectiva en el proceso.
+    p.mb-4(data-aos="fade") Por lo tanto, es esencial diseñar un modelo de seguridad o de amenazas. Este modelo tiene como objetivo organizar, capturar y analizar los riesgos y vulnerabilidades identificados para tomar decisiones de manera rápida y ejercer un control adecuado, implementando contramedidas de forma efectiva en el proceso.
 
     p.mb-5(data-aos="fade-up") Para elaborar un modelo de amenazas, es importante tener en cuenta los siguientes pasos:
 
